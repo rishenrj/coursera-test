@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 10px;  
+
 }
 
 h1 {
@@ -9,40 +9,26 @@ h1 {
 	font: black bold;
 	font-family: "Times New Roman", Times, serif; 
 }
-div {
-	margin-right: auto;
-	margin-left: auto;
-	font-family: Arial;
-	position: relative;
-	text-align: left;
+section {
+	margin:10px;
+  padding: 30px 10px 10px 10px;
+	font-family: Arial; 
 	font-size: 1.1em;
 	background-color: #DEB887;
-}
-#box1{	
-	padding: 40px; 
-	border: 1px solid black;	
-}
-#box2 {
-	padding: 40px;
-	border: 1px solid black;
-
-}
-#box3 {
-	padding: 40px;
-	border: 1px solid black;	
+  border: 1px solid;
 }
 
-p{
+p {
   position: absolute;
   top:-10px;
-  right:-10px;
-  width:150px;
+  right:10px;
+  width: 150px;
   font-size: 1.2em;
-  color: white;
   text-align: center;
   font-family:Lucinda Console, serif;
   font-style: italic;
-  border: 1px solid black;
+  border: 1px black solid;
+  color: white;
 }
 
 .title1 {
@@ -54,7 +40,7 @@ p{
 }
 
 .title3 {
-	background: #0000ff;
+	background-color: #0000ff;
 }
 
 .row {
@@ -65,7 +51,7 @@ p{
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid black;
+    position: relative;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -109,7 +95,7 @@ p{
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid black;
+    position:relative;
   }
   .col-md-1 {
     width: 8.33%;
@@ -153,7 +139,7 @@ p{
 @media (max-width: 767px) {
   .col-mob-1, .col-mob-2, .col-mob-3, .col-mob-4, .col-mob-5, .col-mob-6, .col-mob-7, .col-mob-8, .col-mob-9, .col-mob-10, .col-mob-11, .col-mob-12 {
     float: left;
-    border: 1px solid black;
+    position: relative;
   }
   .col-mob-1 {
     width: 8.33%;
