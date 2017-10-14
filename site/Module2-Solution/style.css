@@ -4,17 +4,17 @@
 }
 
 h1 {
-	font-size: 36px; 
-	text-align: center;
-	font: black bold;
-	font-family: "Times New Roman", Times, serif; 
+  font-size: 36px; 
+  text-align: center;
+  font: black bold;
+  font-family: "Times New Roman", Times, serif; 
 }
 section {
-	margin:10px;
+  margin:10px;
   padding: 30px 10px 10px 10px;
-	font-family: Arial; 
-	font-size: 1.1em;
-	background-color: #DEB887;
+  font-family: Arial; 
+  font-size: 1.1em;
+  background-color: #DEB887;
   border: 1px solid;
 }
 
@@ -32,15 +32,15 @@ p {
 }
 
 .title1 {
-	background-color: #ff6666;
+  background-color: #ff6666;
 }
 
 .title2 {
-	background-color: #A52A2A;
+  background-color: #A52A2A;
 }
 
 .title3 {
-	background-color: #0000ff;
+  background-color: #0000ff;
 }
 
 .row {
