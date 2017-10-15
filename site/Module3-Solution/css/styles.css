@@ -5,13 +5,14 @@ font-family: 'Georgia',serif;
 background-color: green;
 }
 
+/* HEADER */
 #header-nav {
   background-color: #f6b319;
   border-radius: 0;
   border: 0;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 {
   color: #557c3e;
   font-size: 2em;
   text-transform: uppercase;
@@ -19,11 +20,6 @@ background-color: green;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1;
-}
-
-.navbar-header span{
-  text-align: center;
-  color: black;
 }
 
 #nav-list a {
